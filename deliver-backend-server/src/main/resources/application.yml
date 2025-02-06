@@ -1,0 +1,49 @@
+server:
+  port: 7070
+spring:
+  application:
+    name: deliver-server
+  profiles:
+    active: dev
+
+# 对称加密
+aes:
+  key: oszero
+
+resilience:
+  circuit-breaker:
+    mail:
+      failure-rate-threshold: 50
+      sliding-window-size: 10
+      wait-duration-seconds: 10
+      minimum-number-of-calls: 5
+      slow-call-seconds: 2
+      slow-call-rate-threshold: 50.0
+    sms:
+      failure-rate-threshold: 40
+      sliding-window-size: 10
+      wait-duration-seconds: 5
+      minimum-number-of-calls: 5
+      slow-call-seconds: 1
+      slow-call-rate-threshold: 40.0
+    # ... 其他渠道配置
+
+  rate-limiter:
+    mail:
+      limit-for-period: 100
+      limit-refresh-period-seconds: 1
+      timeout-millis: 500
+    sms:
+      limit-for-period: 50
+      limit-refresh-period-seconds: 1
+      timeout-millis: 500
+    # ... 其他渠道配置
+
+  time-limiter:
+    mail:
+      timeout-seconds: 10
+      cancel-running-future: true
+    sms:
+      timeout-seconds: 5
+      cancel-running-future: true
+    # ... 其他渠道配置

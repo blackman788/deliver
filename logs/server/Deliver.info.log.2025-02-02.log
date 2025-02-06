@@ -1,0 +1,230 @@
+Deliver- 2025-02-02 12:47:03 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 12:47:03 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - Starting DeliverServerApplication using Java 17.0.9 with PID 10132 (F:\gitFile\deliver\deliver-backend-server\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 12:47:03 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 12:47:04 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 12:47:04 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 12:47:04 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 12:47:05 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 12:47:05 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 12:47:05 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 12:47:05 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 12:47:05 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 12:47:05 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1782 ms
+Deliver- 2025-02-02 12:47:06 [main] INFO  [TraceId:] c.o.d.s.c.r.ResilienceConfigManager - Loading resilience config to cache...
+Deliver- 2025-02-02 12:47:06 [main] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+Deliver- 2025-02-02 12:47:07 [main] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+Deliver- 2025-02-02 12:47:07 [main] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+Deliver- 2025-02-02 12:47:07 [main] INFO  [TraceId:] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+Deliver- 2025-02-02 12:47:32 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 12:47:32 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - Starting DeliverServerApplication using Java 17.0.9 with PID 12404 (F:\gitFile\deliver\deliver-backend-server\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 12:47:32 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 12:47:33 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 12:47:33 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 12:47:33 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 12:47:33 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 12:47:33 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 12:47:33 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 12:47:33 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 12:47:33 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 12:47:33 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1493 ms
+Deliver- 2025-02-02 12:47:35 [main] INFO  [TraceId:] c.o.d.s.c.r.ResilienceConfigManager - Loading resilience config to cache...
+Deliver- 2025-02-02 12:47:35 [main] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+Deliver- 2025-02-02 12:47:35 [main] INFO  [TraceId:] c.o.d.s.c.r.ResilienceConfigManager - Resilience config loaded to cache.
+Deliver- 2025-02-02 12:47:36 [main] INFO  [TraceId:] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+Deliver- 2025-02-02 12:47:37 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 12:47:37 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 12:47:37 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 12:47:37 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 12:47:37 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 7070 (http)
+Deliver- 2025-02-02 12:47:37 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - Started DeliverServerApplication in 5.163 seconds (process running for 5.635)
+Deliver- 2025-02-02 12:47:37 [RMI TCP Connection(2)-192.168.253.1] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 12:47:37 [RMI TCP Connection(2)-192.168.253.1] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 12:47:37 [RMI TCP Connection(3)-192.168.253.1] INFO  [TraceId:] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+Deliver- 2025-02-02 12:47:37 [RMI TCP Connection(2)-192.168.253.1] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+Deliver- 2025-02-02 13:44:50 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 13:44:50 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 13:44:50 [SpringApplicationShutdownHook] INFO  [TraceId:] c.o.d.server.util.Resilience4jHelper - Shutting down Resilience4jHelper executor service
+Deliver- 2025-02-02 13:44:51 [SpringApplicationShutdownHook] INFO  [TraceId:] c.o.d.server.config.AsyncConfig - 关闭 SpringBoot 线程池
+Deliver- 2025-02-02 13:44:51 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+Deliver- 2025-02-02 13:44:51 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+Deliver- 2025-02-02 13:44:53 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 13:44:53 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - Starting DeliverServerApplication using Java 17.0.9 with PID 9352 (F:\gitFile\deliver\deliver-backend-server\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 13:44:53 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 13:44:54 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 13:44:54 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 13:44:54 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 13:44:54 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 13:44:54 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 13:44:54 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 13:44:54 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 13:44:54 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 13:44:54 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1410 ms
+Deliver- 2025-02-02 13:44:55 [main] INFO  [TraceId:] c.o.d.s.c.r.ResilienceConfigManager - Loading resilience config to cache...
+Deliver- 2025-02-02 13:44:55 [main] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+Deliver- 2025-02-02 13:44:56 [main] INFO  [TraceId:] c.o.d.s.c.r.ResilienceConfigManager - Resilience config loaded to cache.
+Deliver- 2025-02-02 13:44:57 [main] INFO  [TraceId:] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+Deliver- 2025-02-02 13:44:57 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 13:44:57 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 13:44:57 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 13:44:57 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 13:44:57 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 7070 (http)
+Deliver- 2025-02-02 13:44:57 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - Started DeliverServerApplication in 4.937 seconds (process running for 5.438)
+Deliver- 2025-02-02 13:44:58 [RMI TCP Connection(1)-192.168.253.1] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 13:44:58 [RMI TCP Connection(1)-192.168.253.1] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 13:44:58 [RMI TCP Connection(1)-192.168.253.1] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+Deliver- 2025-02-02 20:58:33 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 20:58:33 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 20:58:33 [SpringApplicationShutdownHook] INFO  [TraceId:] c.o.d.server.util.Resilience4jHelper - Shutting down Resilience4jHelper executor service
+Deliver- 2025-02-02 20:58:33 [SpringApplicationShutdownHook] INFO  [TraceId:] c.o.d.server.config.AsyncConfig - 关闭 SpringBoot 线程池
+Deliver- 2025-02-02 20:58:33 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+Deliver- 2025-02-02 20:58:33 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+Deliver- 2025-02-02 20:58:41 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - Starting DeliverServerApplication using Java 17.0.9 with PID 304 (F:\gitFile\deliver\deliver-backend-server\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 20:58:42 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 20:58:42 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 20:58:42 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 20:58:42 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 20:58:42 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 20:58:42 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 20:58:42 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 20:58:43 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 20:58:43 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1577 ms
+Deliver- 2025-02-02 20:58:44 [main] INFO  [TraceId:] c.o.d.s.c.r.ResilienceConfigManager - Loading resilience config to cache...
+Deliver- 2025-02-02 20:58:44 [main] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+Deliver- 2025-02-02 20:58:44 [main] INFO  [TraceId:] c.o.d.s.c.r.ResilienceConfigManager - Resilience config loaded to cache.
+Deliver- 2025-02-02 20:58:46 [main] INFO  [TraceId:] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+Deliver- 2025-02-02 20:58:46 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 20:58:46 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 20:58:46 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 20:58:46 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 20:58:46 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 7070 (http)
+Deliver- 2025-02-02 20:58:46 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - Started DeliverServerApplication in 5.186 seconds (process running for 5.739)
+Deliver- 2025-02-02 20:58:46 [RMI TCP Connection(1)-192.168.253.1] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 20:58:46 [RMI TCP Connection(1)-192.168.253.1] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 20:58:46 [RMI TCP Connection(1)-192.168.253.1] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+Deliver- 2025-02-02 21:04:25 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 21:04:25 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 21:04:25 [SpringApplicationShutdownHook] INFO  [TraceId:] c.o.d.server.util.Resilience4jHelper - Shutting down Resilience4jHelper executor service
+Deliver- 2025-02-02 21:04:25 [SpringApplicationShutdownHook] INFO  [TraceId:] c.o.d.server.config.AsyncConfig - 关闭 SpringBoot 线程池
+Deliver- 2025-02-02 21:04:25 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+Deliver- 2025-02-02 21:04:25 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+Deliver- 2025-02-02 21:04:35 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 21:04:35 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - Starting DeliverServerApplication using Java 17.0.9 with PID 5976 (F:\gitFile\deliver\deliver-backend-server\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 21:04:35 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 21:04:38 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 21:04:38 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 21:04:38 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 21:04:39 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 21:04:39 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 21:04:39 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 21:04:39 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 21:04:39 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 21:04:39 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3510 ms
+Deliver- 2025-02-02 21:04:40 [main] INFO  [TraceId:] c.o.d.s.c.r.ResilienceConfigManager - Loading resilience config to cache...
+Deliver- 2025-02-02 21:04:40 [main] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+Deliver- 2025-02-02 21:04:41 [main] INFO  [TraceId:] c.o.d.s.c.r.ResilienceConfigManager - Resilience config loaded to cache.
+Deliver- 2025-02-02 21:04:42 [main] INFO  [TraceId:] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+Deliver- 2025-02-02 21:04:42 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 21:04:42 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 21:04:42 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 21:04:42 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 21:04:42 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 7070 (http)
+Deliver- 2025-02-02 21:04:42 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - Started DeliverServerApplication in 7.328 seconds (process running for 14.805)
+Deliver- 2025-02-02 21:31:19 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 21:31:19 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 21:31:19 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+Deliver- 2025-02-02 21:31:19 [XNIO-1 task-2] INFO  [TraceId:4e91c64c-f7a8-45b8-9b81-668d3694cc14] c.o.d.server.aop.OpenControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.server.web.controller.OpenController#updateResilienceConfig] 请求参数为: [1]
+Deliver- 2025-02-02 21:31:27 [XNIO-1 task-2] INFO  [TraceId:4e91c64c-f7a8-45b8-9b81-668d3694cc14] c.o.d.s.w.controller.OpenController - Resilience config updated successfully code: 1
+Deliver- 2025-02-02 21:31:27 [XNIO-1 task-2] INFO  [TraceId:4e91c64c-f7a8-45b8-9b81-668d3694cc14] c.o.d.server.aop.OpenControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.server.web.controller.OpenController#updateResilienceConfig] 响应参数为: {"headers":{},"body":"Resilience config updated successfully"}
+Deliver- 2025-02-02 21:32:08 [XNIO-1 task-2] INFO  [TraceId:0fdb9ccb-1eb8-4380-abd5-5fd6ec791daa] c.o.d.server.aop.OpenControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.server.web.controller.OpenController#updateResilienceConfig] 请求参数为: [1]
+Deliver- 2025-02-02 21:33:40 [XNIO-1 task-4] INFO  [TraceId:4d7b9857-4140-48de-83ec-8163c91fdbba] c.o.d.server.aop.OpenControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.server.web.controller.OpenController#updateResilienceConfig] 请求参数为: [1]
+Deliver- 2025-02-02 21:33:40 [XNIO-1 task-3] INFO  [TraceId:930ccd54-55c0-434b-b620-49aeacd225bd] c.o.d.server.aop.OpenControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.server.web.controller.OpenController#updateResilienceConfig] 请求参数为: [1]
+Deliver- 2025-02-02 21:33:40 [XNIO-1 task-5] INFO  [TraceId:398bea28-b3bc-4fa1-b253-8bf558caa85a] c.o.d.server.aop.OpenControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.server.web.controller.OpenController#updateResilienceConfig] 请求参数为: [1]
+Deliver- 2025-02-02 21:33:40 [XNIO-1 task-6] INFO  [TraceId:d241efb0-c4c4-4e49-bd03-470f77d2e7fe] c.o.d.server.aop.OpenControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.server.web.controller.OpenController#updateResilienceConfig] 请求参数为: [1]
+Deliver- 2025-02-02 21:33:40 [XNIO-1 task-2] INFO  [TraceId:0fdb9ccb-1eb8-4380-abd5-5fd6ec791daa] c.o.d.s.w.controller.OpenController - Resilience config updated successfully code: 1
+Deliver- 2025-02-02 21:33:40 [XNIO-1 task-2] INFO  [TraceId:0fdb9ccb-1eb8-4380-abd5-5fd6ec791daa] c.o.d.server.aop.OpenControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.server.web.controller.OpenController#updateResilienceConfig] 响应参数为: {"headers":{},"body":"Resilience config updated successfully"}
+Deliver- 2025-02-02 21:33:42 [XNIO-1 task-5] INFO  [TraceId:398bea28-b3bc-4fa1-b253-8bf558caa85a] c.o.d.s.w.controller.OpenController - Resilience config updated successfully code: 1
+Deliver- 2025-02-02 21:33:42 [XNIO-1 task-4] INFO  [TraceId:4d7b9857-4140-48de-83ec-8163c91fdbba] c.o.d.s.w.controller.OpenController - Resilience config updated successfully code: 1
+Deliver- 2025-02-02 21:33:42 [XNIO-1 task-3] INFO  [TraceId:930ccd54-55c0-434b-b620-49aeacd225bd] c.o.d.s.w.controller.OpenController - Resilience config updated successfully code: 1
+Deliver- 2025-02-02 21:33:42 [XNIO-1 task-6] INFO  [TraceId:d241efb0-c4c4-4e49-bd03-470f77d2e7fe] c.o.d.s.w.controller.OpenController - Resilience config updated successfully code: 1
+Deliver- 2025-02-02 21:33:42 [XNIO-1 task-4] INFO  [TraceId:4d7b9857-4140-48de-83ec-8163c91fdbba] c.o.d.server.aop.OpenControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.server.web.controller.OpenController#updateResilienceConfig] 响应参数为: {"headers":{},"body":"Resilience config updated successfully"}
+Deliver- 2025-02-02 21:33:42 [XNIO-1 task-6] INFO  [TraceId:d241efb0-c4c4-4e49-bd03-470f77d2e7fe] c.o.d.server.aop.OpenControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.server.web.controller.OpenController#updateResilienceConfig] 响应参数为: {"headers":{},"body":"Resilience config updated successfully"}
+Deliver- 2025-02-02 21:33:42 [XNIO-1 task-5] INFO  [TraceId:398bea28-b3bc-4fa1-b253-8bf558caa85a] c.o.d.server.aop.OpenControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.server.web.controller.OpenController#updateResilienceConfig] 响应参数为: {"headers":{},"body":"Resilience config updated successfully"}
+Deliver- 2025-02-02 21:33:42 [XNIO-1 task-3] INFO  [TraceId:930ccd54-55c0-434b-b620-49aeacd225bd] c.o.d.server.aop.OpenControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.server.web.controller.OpenController#updateResilienceConfig] 响应参数为: {"headers":{},"body":"Resilience config updated successfully"}
+Deliver- 2025-02-02 21:33:44 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 21:33:44 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 21:33:44 [SpringApplicationShutdownHook] INFO  [TraceId:] c.o.d.server.util.Resilience4jHelper - Shutting down Resilience4jHelper executor service
+Deliver- 2025-02-02 21:33:44 [SpringApplicationShutdownHook] INFO  [TraceId:] c.o.d.server.config.AsyncConfig - 关闭 SpringBoot 线程池
+Deliver- 2025-02-02 21:33:44 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+Deliver- 2025-02-02 21:33:44 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+Deliver- 2025-02-02 21:33:47 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 21:33:47 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - Starting DeliverServerApplication using Java 17.0.9 with PID 15368 (F:\gitFile\deliver\deliver-backend-server\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 21:33:47 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 21:33:48 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 21:33:48 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 21:33:48 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 21:33:48 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 21:33:48 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 21:33:48 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 21:33:48 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 21:33:48 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 21:33:48 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1513 ms
+Deliver- 2025-02-02 21:33:50 [main] INFO  [TraceId:] c.o.d.s.c.r.ResilienceConfigManager - Loading resilience config to cache...
+Deliver- 2025-02-02 21:33:50 [main] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+Deliver- 2025-02-02 21:33:50 [main] INFO  [TraceId:] c.o.d.s.c.r.ResilienceConfigManager - Resilience config loaded to cache.
+Deliver- 2025-02-02 21:33:51 [main] INFO  [TraceId:] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+Deliver- 2025-02-02 21:33:51 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 21:33:51 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 21:33:51 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 21:33:51 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 21:33:52 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 7070 (http)
+Deliver- 2025-02-02 21:33:52 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - Started DeliverServerApplication in 5.077 seconds (process running for 5.678)
+Deliver- 2025-02-02 21:33:52 [RMI TCP Connection(5)-192.168.253.1] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 21:33:52 [RMI TCP Connection(5)-192.168.253.1] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 21:33:52 [RMI TCP Connection(5)-192.168.253.1] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+Deliver- 2025-02-02 21:51:47 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 21:51:47 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 21:51:47 [SpringApplicationShutdownHook] INFO  [TraceId:] c.o.d.server.util.Resilience4jHelper - Shutting down Resilience4jHelper executor service
+Deliver- 2025-02-02 21:51:48 [SpringApplicationShutdownHook] INFO  [TraceId:] c.o.d.server.config.AsyncConfig - 关闭 SpringBoot 线程池
+Deliver- 2025-02-02 21:51:48 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+Deliver- 2025-02-02 21:51:48 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+Deliver- 2025-02-02 21:51:51 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 21:51:52 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - Starting DeliverServerApplication using Java 17.0.9 with PID 8648 (F:\gitFile\deliver\deliver-backend-server\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 21:51:52 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 21:51:52 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 21:51:52 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 21:51:52 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 21:51:53 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 21:51:53 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 21:51:53 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 21:51:53 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-02-02 21:51:53 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 21:51:53 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1446 ms
+Deliver- 2025-02-02 21:51:54 [main] INFO  [TraceId:] c.o.d.s.c.r.ResilienceConfigManager - Loading resilience config to cache...
+Deliver- 2025-02-02 21:51:54 [main] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+Deliver- 2025-02-02 21:51:55 [main] INFO  [TraceId:] c.o.d.s.c.r.ResilienceConfigManager - Resilience config loaded to cache.
+Deliver- 2025-02-02 21:51:56 [main] INFO  [TraceId:] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+Deliver- 2025-02-02 21:51:56 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 21:51:56 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 21:51:56 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 21:51:56 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 21:51:56 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 7070 (http)
+Deliver- 2025-02-02 21:51:56 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - Started DeliverServerApplication in 4.973 seconds (process running for 5.471)
+Deliver- 2025-02-02 21:51:56 [RMI TCP Connection(2)-192.168.253.1] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 21:51:56 [RMI TCP Connection(2)-192.168.253.1] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 21:51:56 [RMI TCP Connection(2)-192.168.253.1] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+Deliver- 2025-02-02 22:17:52 [XNIO-1 task-2] INFO  [TraceId:12cfd8e6-603a-4f78-85d2-ecd4d056da45] c.o.d.server.aop.OpenControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.server.web.controller.OpenController#updateResilienceConfig] 请求参数为: [2]
+Deliver- 2025-02-02 22:17:52 [XNIO-1 task-2] INFO  [TraceId:12cfd8e6-603a-4f78-85d2-ecd4d056da45] c.o.d.s.w.controller.OpenController - Resilience config updated successfully code: 2
+Deliver- 2025-02-02 22:17:52 [XNIO-1 task-2] INFO  [TraceId:12cfd8e6-603a-4f78-85d2-ecd4d056da45] c.o.d.server.aop.OpenControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.server.web.controller.OpenController#updateResilienceConfig] 响应参数为: {"headers":{},"body":"Resilience config updated successfully"}
+Deliver- 2025-02-02 22:18:33 [XNIO-1 task-2] INFO  [TraceId:590a4530-0d3f-4278-96dc-209cfd0319a0] c.o.d.server.aop.OpenControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.server.web.controller.OpenController#updateResilienceConfig] 请求参数为: [2]
+Deliver- 2025-02-02 22:18:33 [XNIO-1 task-2] INFO  [TraceId:590a4530-0d3f-4278-96dc-209cfd0319a0] c.o.d.s.w.controller.OpenController - Resilience config updated successfully code: 2
+Deliver- 2025-02-02 22:18:33 [XNIO-1 task-2] INFO  [TraceId:590a4530-0d3f-4278-96dc-209cfd0319a0] c.o.d.server.aop.OpenControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.server.web.controller.OpenController#updateResilienceConfig] 响应参数为: {"headers":{},"body":"Resilience config updated successfully"}
+Deliver- 2025-02-02 22:19:15 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 22:19:15 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 22:19:15 [SpringApplicationShutdownHook] INFO  [TraceId:] c.o.d.server.util.Resilience4jHelper - Shutting down Resilience4jHelper executor service
+Deliver- 2025-02-02 22:19:15 [SpringApplicationShutdownHook] INFO  [TraceId:] c.o.d.server.config.AsyncConfig - 关闭 SpringBoot 线程池
+Deliver- 2025-02-02 22:19:15 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+Deliver- 2025-02-02 22:19:15 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

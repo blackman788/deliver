@@ -1,0 +1,4 @@
+Deliver- 2025-01-28 15:25:12 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-01-28 15:25:12 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.server.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-01-28 15:25:13 [main] WARN  [TraceId:] o.a.r.s.a.RocketMQAutoConfiguration - The necessary spring property 'rocketmq.name-server' is not defined, all rockertmq beans creation are skipped!
+Deliver- 2025-01-28 15:25:14 [main] WARN  [TraceId:] o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin

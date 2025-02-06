@@ -1,0 +1,72 @@
+Deliver- 2025-02-04 17:31:30 [main] ERROR [TraceId:] o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'templateController': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.oszero.deliver.admin.DeliverAdminApplication.main(DeliverAdminApplication.java:38)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'deliver.server.sender' in value "${deliver.server.sender}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:747)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	... 17 common frames omitted
+Deliver- 2025-02-04 17:43:31 [XNIO-1 task-3] ERROR [TraceId:606cf624-da82-41bc-8fd6-8685833d1ece] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求 [com.oszero.deliver.admin.controller.TemplateController#saveTemplate] 发生异常: 此模板名(测试钉钉MD消息发送)已存在！！！
+Deliver- 2025-02-04 17:43:31 [XNIO-1 task-3] ERROR [TraceId:606cf624-da82-41bc-8fd6-8685833d1ece] c.o.d.a.e.AdminGlobalExceptionHandler - [BusinessException, 此模板名(测试钉钉MD消息发送)已存在！！！] 
+Deliver- 2025-02-04 17:43:43 [XNIO-1 task-3] ERROR [TraceId:b3b0ae98-8b52-481c-a52c-e07ba5279304] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求 [com.oszero.deliver.admin.controller.TemplateController#saveTemplate] 发生异常: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'group_id' in 'field list'
+### The error may exist in com/oszero/deliver/admin/mapper/AdminTemplateAppMapper.java (best guess)
+### The error may involve com.oszero.deliver.admin.mapper.AdminTemplateAppMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO template_app  ( template_id, app_id,    group_id )  VALUES (  ?, ?,    ?  )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'group_id' in 'field list'
+; bad SQL grammar []
+Deliver- 2025-02-04 17:43:43 [XNIO-1 task-3] ERROR [TraceId:b3b0ae98-8b52-481c-a52c-e07ba5279304] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'group_id' in 'field list'
+### The error may exist in com/oszero/deliver/admin/mapper/AdminTemplateAppMapper.java (best guess)
+### The error may involve com.oszero.deliver.admin.mapper.AdminTemplateAppMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO template_app  ( template_id, app_id,    group_id )  VALUES (  ?, ?,    ?  )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'group_id' in 'field list'
+; bad SQL grammar []] 
+Deliver- 2025-02-04 18:09:54 [XNIO-1 task-2] ERROR [TraceId:717d4582-8f78-40f0-9c00-b4cb837c7023] c.o.d.a.e.AdminGlobalExceptionHandler - 请求参数非预期异常: POST - /admin/template/testSendMessage, error = Validation failed for argument [0] in public com.oszero.deliver.admin.model.common.CommonResult<?> com.oszero.deliver.admin.controller.TemplateController.testSendMessage(com.oszero.deliver.admin.model.dto.request.SendTestRequestDto): [Field error in object 'sendTestRequestDto' on field 'users': rejected value [null]; codes [NotEmpty.sendTestRequestDto.users,NotEmpty.users,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [sendTestRequestDto.users,users]; arguments []; default message [users]]; default message [发送用户列表不能为空]] 
+Deliver- 2025-02-04 20:16:59 [XNIO-1 task-5] ERROR [TraceId:3925d7cd-f397-4cc9-99ce-69ed46b25484] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求 [com.oszero.deliver.admin.controller.TemplateController#search] 发生异常: null
+Deliver- 2025-02-04 20:16:59 [XNIO-1 task-5] ERROR [TraceId:3925d7cd-f397-4cc9-99ce-69ed46b25484] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, null] 
+Deliver- 2025-02-04 20:34:21 [XNIO-1 task-6] ERROR [TraceId:2a377689-33cc-4a92-ab97-83f3ad3e5b02] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 
+Deliver- 2025-02-04 20:34:21 [XNIO-1 task-4] ERROR [TraceId:34ca5387-ee92-4c5a-add1-26f777b9cdec] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 
+Deliver- 2025-02-04 20:34:21 [XNIO-1 task-3] ERROR [TraceId:01505850-04fa-4229-8696-741245ba069e] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 
+Deliver- 2025-02-04 20:34:21 [XNIO-1 task-2] ERROR [TraceId:79822c6c-6678-45ed-b66a-c2e2936eec32] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 
+Deliver- 2025-02-04 20:34:21 [XNIO-1 task-5] ERROR [TraceId:2d08eef6-bcd9-4e78-8eb4-762e3eecd2e5] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 
+Deliver- 2025-02-04 20:34:24 [XNIO-1 task-6] ERROR [TraceId:aef00fd5-a68f-4451-965f-3590c9aedd2a] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 
+Deliver- 2025-02-04 20:34:30 [XNIO-1 task-6] ERROR [TraceId:ba776936-44bd-4b36-acb9-67c3ece031f8] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 
+Deliver- 2025-02-04 20:34:31 [XNIO-1 task-6] ERROR [TraceId:cb7d8fa0-a0d5-4df2-bfe1-7d12adb2c339] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 
+Deliver- 2025-02-04 20:34:32 [XNIO-1 task-6] ERROR [TraceId:92f08cb9-a0e0-4616-acd1-a334bbeba585] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 
+Deliver- 2025-02-04 20:34:34 [XNIO-1 task-6] ERROR [TraceId:e61a0058-a684-4ab4-ba94-5b7ee32501f7] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 
+Deliver- 2025-02-04 20:36:00 [XNIO-1 task-6] ERROR [TraceId:83bd9050-1cca-40cc-adea-c76b4214f815] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 
+Deliver- 2025-02-04 20:36:00 [XNIO-1 task-2] ERROR [TraceId:c44f1172-55e5-4ca0-bce8-0f6dd49d26a5] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 
+Deliver- 2025-02-04 20:36:00 [XNIO-1 task-2] ERROR [TraceId:18f8e678-9ab7-4952-b5ed-975fbabc301b] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 
+Deliver- 2025-02-04 20:36:00 [XNIO-1 task-5] ERROR [TraceId:15a8a9f4-c7aa-4e03-abde-97819e16e092] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 
+Deliver- 2025-02-04 20:36:00 [XNIO-1 task-6] ERROR [TraceId:c58f9af6-1c90-4eb4-8e1e-7bdf77313eb8] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 
+Deliver- 2025-02-04 20:36:01 [XNIO-1 task-2] ERROR [TraceId:c7eba78a-e937-48c6-904c-69a2039dba46] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 
+Deliver- 2025-02-04 20:36:03 [XNIO-1 task-2] ERROR [TraceId:b8075a7b-8317-47f7-83fe-a0e9de63d339] c.o.d.a.e.AdminGlobalExceptionHandler - [handleThrowable, Cannot invoke "String.split(String)" because the return value of "cn.hutool.core.codec.Base64.decodeStr(java.lang.CharSequence)" is null] 

@@ -1,0 +1,21 @@
+Deliver- 2025-01-16 00:44:47 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-01-16 00:44:47 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - Starting DeliverServerApplication using Java 17.0.9 with PID 20872 (F:\gitFile\deliver\deliver-backend-server\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-01-16 00:44:47 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - The following 1 profile is active: "dev"
+Deliver- 2025-01-16 00:44:48 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-01-16 00:44:48 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-01-16 00:44:48 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-01-16 00:44:49 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-01-16 00:44:49 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-01-16 00:44:49 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-01-16 00:44:49 [main] INFO  [TraceId:] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Deliver- 2025-01-16 00:44:49 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-01-16 00:44:49 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2243 ms
+Deliver- 2025-01-16 00:44:51 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-01-16 00:44:51 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-01-16 00:44:51 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-01-16 00:44:51 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-01-16 00:44:51 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 7070 (http)
+Deliver- 2025-01-16 00:44:51 [main] INFO  [TraceId:] c.o.d.s.DeliverServerApplication - Started DeliverServerApplication in 4.935 seconds (process running for 5.49)
+Deliver- 2025-01-16 00:45:12 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-01-16 00:45:12 [SpringApplicationShutdownHook] INFO  [TraceId:] c.o.d.server.config.AsyncConfig - 关闭 SpringBoot 线程池
+Deliver- 2025-01-16 00:45:12 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...

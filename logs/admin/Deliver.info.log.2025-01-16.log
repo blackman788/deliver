@@ -1,0 +1,38 @@
+Deliver- 2025-01-16 00:45:03 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-01-16 00:45:03 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 18544 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-01-16 00:45:03 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-01-16 00:45:04 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-01-16 00:45:04 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-01-16 00:45:04 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-01-16 00:45:04 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-01-16 00:45:04 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1439 ms
+Deliver- 2025-01-16 00:45:06 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-01-16 00:45:06 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-01-16 00:45:06 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-01-16 00:45:06 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-01-16 00:45:06 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-01-16 00:45:06 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-01-16 00:45:06 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-01-16 00:45:06 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6c9e74f3
+Deliver- 2025-01-16 00:45:06 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-01-16 00:45:06 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-01-16 00:45:06 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-01-16 00:45:06 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-01-16 00:45:06 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-01-16 00:45:06 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-01-16 00:45:06 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-01-16 00:45:06 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.536 seconds (process running for 3.953)
+Deliver- 2025-01-16 00:45:12 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-01-16 00:45:12 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-01-16 00:45:12 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-01-16 00:45:12 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-01-16 00:45:12 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-01-16 00:45:12 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-01-16 00:45:12 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...

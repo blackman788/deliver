@@ -1,0 +1,24 @@
+server:
+  port: 9091
+  servlet:
+    context-path: /admin
+spring:
+  application:
+    name: deliver-admin
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 30MB
+      max-request-size: 40MB
+
+# 对称加密
+aes:
+  key: oszero
+# 服务端发送接口地址
+deliver-server:
+  send_url: http://localhost:7070/open/sendMessage
+  update_config_url: http://localhost:7070/open/resilience/config
+  sender: beacon
+  secret: 9a0adcd7c9c3b72e532bef13cced0997
+

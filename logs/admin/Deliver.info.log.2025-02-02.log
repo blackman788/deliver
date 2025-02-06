@@ -1,0 +1,959 @@
+Deliver- 2025-02-02 13:47:09 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 13:47:09 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 12996 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 13:47:09 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 13:47:10 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 13:47:10 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 13:47:10 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 13:47:11 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 13:47:11 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1692 ms
+Deliver- 2025-02-02 13:47:13 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 13:47:13 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 13:47:13 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 13:47:13 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 13:47:13 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 13:47:13 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 13:47:13 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 13:47:13 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@22854f2b
+Deliver- 2025-02-02 13:47:13 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 13:47:13 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 13:47:13 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 13:47:13 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 13:47:13 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 13:47:13 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 13:47:13 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 13:47:13 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 4.43 seconds (process running for 4.898)
+Deliver- 2025-02-02 14:03:36 [XNIO-1 task-5] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 14:03:36 [XNIO-1 task-5] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 14:03:36 [XNIO-1 task-5] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+Deliver- 2025-02-02 14:03:36 [XNIO-1 task-3] INFO  [TraceId:6084f445-f8e3-492e-87bb-d1f7456b4615] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.DashboardController#getDashboardHeadData] 请求参数为: []
+Deliver- 2025-02-02 14:03:36 [XNIO-1 task-3] INFO  [TraceId:6084f445-f8e3-492e-87bb-d1f7456b4615] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+Deliver- 2025-02-02 14:03:36 [XNIO-1 task-6] INFO  [TraceId:af354f7d-7a38-47ce-b47f-dd52b434a4d8] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.DashboardController#getTemplateInfo] 请求参数为: [{"dateSelect":1}]
+Deliver- 2025-02-02 14:03:36 [XNIO-1 task-5] INFO  [TraceId:19f9acae-048f-4f34-ae6d-f069ce1389fd] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.DashboardController#getMessageInfoVue] 请求参数为: [{"dateSelect":1}]
+Deliver- 2025-02-02 14:03:36 [XNIO-1 task-4] INFO  [TraceId:78e01815-6bc5-4515-ac2b-ca7e03ebdc34] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.DashboardController#getAppInfo] 请求参数为: [{"dateSelect":1}]
+Deliver- 2025-02-02 14:03:36 [XNIO-1 task-2] INFO  [TraceId:9f13cb09-b519-4e24-9837-418a59bd941f] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.DashboardController#getPushUserInfo] 请求参数为: [{"dateSelect":1}]
+Deliver- 2025-02-02 14:03:37 [XNIO-1 task-4] INFO  [TraceId:78e01815-6bc5-4515-ac2b-ca7e03ebdc34] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.DashboardController#getAppInfo] 响应参数为: {"code":200,"data":{"dashboardInfoList":[]}}
+Deliver- 2025-02-02 14:03:37 [XNIO-1 task-2] INFO  [TraceId:9f13cb09-b519-4e24-9837-418a59bd941f] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.DashboardController#getPushUserInfo] 响应参数为: {"code":200,"data":{"dashboardInfoList":[]}}
+Deliver- 2025-02-02 14:03:37 [XNIO-1 task-6] INFO  [TraceId:af354f7d-7a38-47ce-b47f-dd52b434a4d8] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.DashboardController#getTemplateInfo] 响应参数为: {"code":200,"data":{"dashboardInfoList":[]}}
+Deliver- 2025-02-02 14:03:37 [XNIO-1 task-5] INFO  [TraceId:19f9acae-048f-4f34-ae6d-f069ce1389fd] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.DashboardController#getMessageInfoVue] 响应参数为: {"code":200,"data":{"messageInfoList":[["0-4h",0,0],["4-8h",0,0],["8-12h",0,0],["12-16h",0,0],["16-20h",0,0],["20-24h",0,0]]}}
+Deliver- 2025-02-02 14:03:37 [XNIO-1 task-3] INFO  [TraceId:6084f445-f8e3-492e-87bb-d1f7456b4615] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.DashboardController#getDashboardHeadData] 响应参数为: {"code":200,"data":{"numberOfMessagesToday":"0","numberOfPlatformFiles":"0","accumulatedTemplateOwnership":"5","numberOfApps":"6"}}
+Deliver- 2025-02-02 14:05:43 [XNIO-1 task-3] INFO  [TraceId:9520c2fe-50ee-4ce0-a02f-0fc276484912] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.PlatformFileController#getPagePlatformFile] 请求参数为: [{"currentPage":1,"pageSize":10}]
+Deliver- 2025-02-02 14:05:43 [XNIO-1 task-3] INFO  [TraceId:9520c2fe-50ee-4ce0-a02f-0fc276484912] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.PlatformFileController#getPagePlatformFile] 响应参数为: {"code":200,"data":{"records":[],"total":0,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"searchCount":true}}
+Deliver- 2025-02-02 14:05:46 [XNIO-1 task-3] INFO  [TraceId:74bd2e0f-3e1b-4dde-b8b4-4d5f6426c9ed] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.AppController#getAppPagesByCondition] 请求参数为: [{"currentPage":1,"pageSize":10}]
+Deliver- 2025-02-02 14:05:46 [XNIO-1 task-3] INFO  [TraceId:74bd2e0f-3e1b-4dde-b8b4-4d5f6426c9ed] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.AppController#getAppPagesByCondition] 响应参数为: {"code":200,"data":{"records":[{"appId":6,"appName":"飞书消息测试1","channelType":6,"appConfig":"{\"appId\":\"cli_a70883070a7d900b\",\"appSecret\":\"j5fM99xglx0v3dBxkNn9HcekZwrBj1I3\"}","useCount":0,"appStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736589470000,"updateTime":1736589508000},{"appId":5,"appName":"企业微信消息测试1","channelType":5,"appConfig":"{\"corpid\":\"ww1a5b1c0af1acf055\",\"corpsecret\":\"DSSFye3Tq5ilpZXhdYioyvnaaXidsue9M_ihvHZikpQ\",\"agentid\":\"1000003\"}","useCount":0,"appStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736255916000,"updateTime":1736255922000},{"appId":4,"appName":"钉钉消息测试2","channelType":4,"appConfig":"{\"agentId\":\"30465002\",\"appKey\":\"dingdvsif1f38npj3fft\",\"appSecret\":\"AYMqNBr6mZorBekGLDCT7BBBgRFGLTMDvzrZ64NgOS84wmu91wYy_8aZWo7M3RER\",\"robotCode\":\"dingljfwufzucmzsc2hg\"}","useCount":0,"appStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736072482000,"updateTime":1736074805000},{"appId":3,"appName":"钉钉消息测试1","channelType":4,"appConfig":"{\"agentId\":\"3343766307\",\"appKey\":\"dingljfwufzucmzsc2hg\",\"appSecret\":\"BzKj-ED9hhX6GzTiXGgy3ajoMjROAlGQvuqTDv15g1yNDyjXfhRowGCZrd2AXeC2\",\"robotCode\":\"\"}","useCount":0,"appStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736068313000,"updateTime":1736071160000},{"appId":2,"appName":"阿里云短信测试","channelType":2,"appConfig":"{\"accessKeyId\":\"LTAI5tQuzNuAd6WJZZuumV6J\",\"accessKeySecret\":\"YvaLRxGXpPIGPIFf6movBzXvEi9OKw\"}","useCount":0,"appStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1735480740000,"updateTime":1735480747000},{"appId":1,"appName":"163邮箱","channelType":3,"appConfig":"{\"host\":\"smtp.163.com\",\"username\":\"yxk75115513@163.com\",\"password\":\"ASiLF3CFimwrZPr8\",\"auth\":\"true\",\"sslEnable\":\"true\"}","useCount":0,"appStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1735381502000,"updateTime":1735383245000}],"total":6,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"searchCount":true}}
+Deliver- 2025-02-02 14:10:44 [XNIO-1 task-3] INFO  [TraceId:1eb35715-13bd-4a30-89f6-e07da9f0f4ec] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.TemplateController#search] 请求参数为: [{"currentPage":1,"pageSize":10}]
+Deliver- 2025-02-02 14:10:44 [XNIO-1 task-3] INFO  [TraceId:1eb35715-13bd-4a30-89f6-e07da9f0f4ec] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.TemplateController#search] 响应参数为: {"code":200,"data":{"records":[{"templateId":6,"templateName":"测试飞书消息","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":6,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736589571000,"updateTime":1736589579000,"appId":6,"appName":"飞书消息测试1"},{"templateId":4,"templateName":"测试钉钉机器人消息发送2","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":4,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736072522000,"updateTime":1736072545000,"appId":4,"appName":"钉钉消息测试2"},{"templateId":3,"templateName":"测试钉钉工作消息发送1","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":4,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736068422000,"updateTime":1736068439000,"appId":3,"appName":"钉钉消息测试1"},{"templateId":2,"templateName":"测试发送短信1","pushRange":1,"usersType":2,"pushWays":"{\"channelType\":2,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1735480800000,"updateTime":1735480814000,"appId":2,"appName":"阿里云短信测试"},{"templateId":1,"templateName":"测试邮箱1","pushRange":1,"usersType":3,"pushWays":"{\"channelType\":3,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1735381780000,"updateTime":1735381793000,"appId":1,"appName":"163邮箱"}],"total":5,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"searchCount":true}}
+Deliver- 2025-02-02 16:45:51 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 16:45:51 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 16:45:51 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:45:51 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 16:45:51 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 16:45:51 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 16:45:51 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 16:45:51 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+Deliver- 2025-02-02 16:45:51 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+Deliver- 2025-02-02 16:45:54 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 16:45:54 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 9348 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 16:45:54 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 16:45:55 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 16:45:55 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 16:45:55 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 16:45:55 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 16:45:55 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1073 ms
+Deliver- 2025-02-02 16:45:57 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 16:45:57 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 16:45:57 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 16:45:57 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 16:45:57 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 16:45:57 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 16:45:57 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 16:45:57 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@75063bd0
+Deliver- 2025-02-02 16:45:57 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 16:45:57 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 16:45:57 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 16:45:57 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 16:45:57 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 16:45:57 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 16:45:57 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 16:45:57 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.297 seconds (process running for 3.719)
+Deliver- 2025-02-02 16:48:03 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:48:03 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:48:03 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+Deliver- 2025-02-02 16:52:56 [XNIO-1 task-2] INFO  [TraceId:696cc981-da50-413c-8555-4e0cfd0b958b] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.TemplateController#search] 请求参数为: [{"currentPage":1,"pageSize":10}]
+Deliver- 2025-02-02 16:52:56 [XNIO-1 task-2] INFO  [TraceId:696cc981-da50-413c-8555-4e0cfd0b958b] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+Deliver- 2025-02-02 16:52:56 [XNIO-1 task-2] INFO  [TraceId:696cc981-da50-413c-8555-4e0cfd0b958b] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.TemplateController#search] 响应参数为: {"code":200,"data":{"records":[{"templateId":6,"templateName":"测试飞书消息","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":6,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736589571000,"updateTime":1736589579000,"appId":6,"appName":"飞书消息测试1"},{"templateId":4,"templateName":"测试钉钉机器人消息发送2","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":4,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736072522000,"updateTime":1736072545000,"appId":4,"appName":"钉钉消息测试2"},{"templateId":3,"templateName":"测试钉钉工作消息发送1","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":4,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736068422000,"updateTime":1736068439000,"appId":3,"appName":"钉钉消息测试1"},{"templateId":2,"templateName":"测试发送短信1","pushRange":1,"usersType":2,"pushWays":"{\"channelType\":2,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1735480800000,"updateTime":1735480814000,"appId":2,"appName":"阿里云短信测试"},{"templateId":1,"templateName":"测试邮箱1","pushRange":1,"usersType":3,"pushWays":"{\"channelType\":3,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1735381780000,"updateTime":1735381793000,"appId":1,"appName":"163邮箱"}],"total":5,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"searchCount":true}}
+Deliver- 2025-02-02 16:54:15 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 16:54:15 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 16:54:15 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:54:15 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 16:54:15 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 16:54:15 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 16:54:15 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 16:54:15 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+Deliver- 2025-02-02 16:54:15 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+Deliver- 2025-02-02 16:54:45 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 16:54:45 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 11872 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 16:54:45 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 16:54:46 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 16:54:46 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 16:54:46 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 16:54:46 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 16:54:46 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1005 ms
+Deliver- 2025-02-02 16:54:48 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 16:54:48 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 16:54:48 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 16:54:48 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 16:54:48 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 16:54:48 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 16:54:48 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 16:54:48 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7b9d1a4
+Deliver- 2025-02-02 16:54:48 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 16:54:48 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 16:54:48 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 16:54:48 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 16:54:48 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 16:54:48 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 16:54:48 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 16:54:48 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.154 seconds (process running for 3.6)
+Deliver- 2025-02-02 16:55:12 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:55:12 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:55:12 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+Deliver- 2025-02-02 16:55:12 [XNIO-1 task-2] INFO  [TraceId:f4ec0156-6696-4dbe-ac02-85023b374126] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: []
+Deliver- 2025-02-02 16:55:47 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 16:55:47 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 16:55:47 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:55:47 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 16:55:47 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 16:55:47 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 16:55:47 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 16:55:47 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+Deliver- 2025-02-02 16:55:50 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 16:55:50 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 10676 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 16:55:50 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 16:55:51 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 16:55:51 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 16:55:51 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 16:55:51 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 16:55:51 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 963 ms
+Deliver- 2025-02-02 16:55:53 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 16:55:53 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 16:55:53 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 16:55:53 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 16:55:53 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 16:55:53 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 16:55:53 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 16:55:53 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3a239dac
+Deliver- 2025-02-02 16:55:53 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 16:55:53 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 16:55:53 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 16:55:53 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 16:55:53 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 16:55:53 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 16:55:53 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 16:55:53 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.053 seconds (process running for 3.438)
+Deliver- 2025-02-02 16:55:56 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:55:56 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:55:56 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+Deliver- 2025-02-02 16:56:09 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 16:56:09 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 16:56:09 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:56:09 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 16:56:09 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 16:56:09 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 16:56:09 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 16:56:09 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+Deliver- 2025-02-02 16:56:12 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 16:56:12 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 9584 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 16:56:12 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 16:56:13 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 16:56:13 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 16:56:13 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 16:56:13 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 16:56:13 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1033 ms
+Deliver- 2025-02-02 16:56:15 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 16:56:15 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 16:56:15 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 16:56:15 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 16:56:15 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 16:56:15 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 16:56:15 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 16:56:15 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@47772462
+Deliver- 2025-02-02 16:56:15 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 16:56:15 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 16:56:15 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 16:56:15 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 16:56:15 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 16:56:15 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 16:56:15 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 16:56:15 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.252 seconds (process running for 4.184)
+Deliver- 2025-02-02 16:56:18 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:56:18 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:56:18 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+Deliver- 2025-02-02 16:57:10 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 16:57:10 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 16:57:10 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:57:10 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 16:57:10 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 16:57:10 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 16:57:10 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 16:57:10 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+Deliver- 2025-02-02 16:57:13 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 16:57:13 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 13452 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 16:57:13 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 16:57:14 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 16:57:14 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 16:57:14 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 16:57:15 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 16:57:15 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1048 ms
+Deliver- 2025-02-02 16:57:16 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 16:57:16 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 16:57:16 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 16:57:16 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 16:57:16 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 16:57:16 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 16:57:16 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 16:57:16 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@807c1e8
+Deliver- 2025-02-02 16:57:16 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 16:57:16 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 16:57:16 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 16:57:16 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 16:57:16 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 16:57:16 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 16:57:16 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 16:57:16 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.265 seconds (process running for 3.752)
+Deliver- 2025-02-02 16:57:19 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:57:19 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:57:19 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+Deliver- 2025-02-02 16:58:35 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 16:58:35 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 16:58:35 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:58:35 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 16:58:35 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 16:58:35 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 16:58:35 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 16:58:35 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+Deliver- 2025-02-02 16:58:38 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 16:58:38 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 18004 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 16:58:38 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 16:58:39 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 16:58:39 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 16:58:39 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 16:58:40 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 16:58:40 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1161 ms
+Deliver- 2025-02-02 16:58:41 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 16:58:41 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 16:58:41 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 16:58:41 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 16:58:41 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 16:58:41 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 16:58:41 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 16:58:41 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@665b441e
+Deliver- 2025-02-02 16:58:41 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 16:58:41 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 16:58:41 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 16:58:42 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 16:58:42 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 16:58:42 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 16:58:42 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 16:58:42 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.521 seconds (process running for 4.03)
+Deliver- 2025-02-02 16:58:55 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:58:55 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:58:55 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+Deliver- 2025-02-02 16:58:55 [XNIO-1 task-2] INFO  [TraceId:bbb419fa-cf69-4f82-a42f-104d58a788bf] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: []
+Deliver- 2025-02-02 16:59:17 [XNIO-1 task-2] INFO  [TraceId:f5fa9124-69de-42d0-bddb-4ab78ff40cc5] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: []
+Deliver- 2025-02-02 16:59:30 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 16:59:30 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 16:59:30 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:59:30 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 16:59:30 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 16:59:30 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 16:59:30 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 16:59:30 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+Deliver- 2025-02-02 16:59:34 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 16:59:34 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 15268 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 16:59:34 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 16:59:34 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 16:59:34 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 16:59:34 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 16:59:35 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 16:59:35 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1095 ms
+Deliver- 2025-02-02 16:59:36 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 16:59:36 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 16:59:36 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 16:59:36 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 16:59:36 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 16:59:36 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 16:59:36 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 16:59:36 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@10301d6f
+Deliver- 2025-02-02 16:59:36 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 16:59:36 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 16:59:36 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 16:59:37 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 16:59:37 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 16:59:37 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 16:59:37 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 16:59:37 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.449 seconds (process running for 4.051)
+Deliver- 2025-02-02 16:59:37 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:59:37 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:59:37 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+Deliver- 2025-02-02 16:59:38 [XNIO-1 task-2] INFO  [TraceId:bc079c10-2db3-4899-9a7f-be66445aafad] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: []
+Deliver- 2025-02-02 16:59:43 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 16:59:43 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 16:59:43 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 16:59:43 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 16:59:43 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 16:59:43 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 16:59:43 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 16:59:43 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+Deliver- 2025-02-02 16:59:54 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 16:59:54 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 15980 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 16:59:54 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 16:59:55 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 16:59:55 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 16:59:55 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 16:59:55 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 16:59:55 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1087 ms
+Deliver- 2025-02-02 16:59:57 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 16:59:57 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 16:59:57 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 16:59:57 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 16:59:57 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 16:59:57 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 16:59:57 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 16:59:57 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3ffa0f38
+Deliver- 2025-02-02 16:59:57 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 16:59:57 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 16:59:57 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 16:59:57 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 16:59:57 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 16:59:57 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 16:59:57 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 16:59:57 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.362 seconds (process running for 3.911)
+Deliver- 2025-02-02 17:00:03 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:00:03 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:00:03 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+Deliver- 2025-02-02 17:01:16 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 17:01:16 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 17:01:16 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:01:16 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 17:01:16 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 17:01:16 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 17:01:16 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 17:01:16 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+Deliver- 2025-02-02 17:01:20 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 17:01:20 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 19264 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 17:01:20 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 17:01:20 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 17:01:20 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 17:01:20 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 17:01:21 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 17:01:21 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1062 ms
+Deliver- 2025-02-02 17:01:23 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 17:01:23 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 17:01:23 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 17:01:23 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 17:01:23 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 17:01:23 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 17:01:23 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 17:01:23 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2b0494a8
+Deliver- 2025-02-02 17:01:23 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 17:01:23 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 17:01:23 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 17:01:23 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 17:01:23 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 17:01:23 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 17:01:23 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 17:01:23 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.33 seconds (process running for 3.843)
+Deliver- 2025-02-02 17:01:24 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:01:24 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:01:24 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+Deliver- 2025-02-02 17:03:51 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 17:03:51 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 17:03:51 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:03:51 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 17:03:51 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 17:03:51 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 17:03:51 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 17:03:51 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+Deliver- 2025-02-02 17:03:54 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 17:03:54 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 16908 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 17:03:54 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 17:03:55 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 17:03:55 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 17:03:55 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 17:03:56 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 17:03:56 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1032 ms
+Deliver- 2025-02-02 17:03:57 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 17:03:57 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 17:03:57 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 17:03:57 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 17:03:57 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 17:03:57 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 17:03:57 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 17:03:57 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2b0494a8
+Deliver- 2025-02-02 17:03:57 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 17:03:57 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 17:03:57 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 17:03:57 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 17:03:57 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 17:03:57 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 17:03:57 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 17:03:57 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.298 seconds (process running for 3.859)
+Deliver- 2025-02-02 17:04:05 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:04:05 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:04:05 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+Deliver- 2025-02-02 17:04:05 [XNIO-1 task-2] INFO  [TraceId:b40b1192-5d03-4157-af7b-80d665c78378] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: []
+Deliver- 2025-02-02 17:05:29 [XNIO-1 task-3] INFO  [TraceId:e02efa9e-f8a4-481d-bd07-585b975d8bb5] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: []
+Deliver- 2025-02-02 17:05:31 [XNIO-1 task-4] INFO  [TraceId:98523bf2-cd91-4bcf-a414-cf7a3e30a671] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.TemplateController#search] 请求参数为: [{"currentPage":1,"pageSize":10}]
+Deliver- 2025-02-02 17:05:31 [XNIO-1 task-4] INFO  [TraceId:98523bf2-cd91-4bcf-a414-cf7a3e30a671] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+Deliver- 2025-02-02 17:05:32 [XNIO-1 task-4] INFO  [TraceId:98523bf2-cd91-4bcf-a414-cf7a3e30a671] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.TemplateController#search] 响应参数为: {"code":200,"data":{"records":[{"templateId":6,"templateName":"测试飞书消息","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":6,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736589571000,"updateTime":1736589579000,"appId":6,"appName":"飞书消息测试1"},{"templateId":4,"templateName":"测试钉钉机器人消息发送2","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":4,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736072522000,"updateTime":1736072545000,"appId":4,"appName":"钉钉消息测试2"},{"templateId":3,"templateName":"测试钉钉工作消息发送1","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":4,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736068422000,"updateTime":1736068439000,"appId":3,"appName":"钉钉消息测试1"},{"templateId":2,"templateName":"测试发送短信1","pushRange":1,"usersType":2,"pushWays":"{\"channelType\":2,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1735480800000,"updateTime":1735480814000,"appId":2,"appName":"阿里云短信测试"},{"templateId":1,"templateName":"测试邮箱1","pushRange":1,"usersType":3,"pushWays":"{\"channelType\":3,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1735381780000,"updateTime":1735381793000,"appId":1,"appName":"163邮箱"}],"total":5,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"searchCount":true}}
+Deliver- 2025-02-02 17:05:40 [XNIO-1 task-4] INFO  [TraceId:f79ca81d-1b8e-427f-999c-f83554ef464d] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: []
+Deliver- 2025-02-02 17:06:22 [XNIO-1 task-4] INFO  [TraceId:9b45ff6a-72cb-4ff7-9e0b-0adf4cdfc401] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: []
+Deliver- 2025-02-02 17:08:34 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 17:08:34 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 17:08:34 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:08:34 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 17:08:34 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 17:08:34 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 17:08:34 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 17:08:34 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+Deliver- 2025-02-02 17:08:34 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+Deliver- 2025-02-02 17:08:37 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 17:08:37 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 13392 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 17:08:37 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 17:08:38 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 17:08:38 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 17:08:38 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 17:08:38 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 17:08:38 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1058 ms
+Deliver- 2025-02-02 17:08:40 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 17:08:40 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 17:08:40 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 17:08:40 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 17:08:40 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 17:08:40 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 17:08:40 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 17:08:40 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1bbb48dd
+Deliver- 2025-02-02 17:08:40 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 17:08:40 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 17:08:40 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 17:08:40 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 17:08:40 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 17:08:40 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 17:08:40 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 17:08:40 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.373 seconds (process running for 3.881)
+Deliver- 2025-02-02 17:08:42 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:08:42 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:08:42 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+Deliver- 2025-02-02 17:08:42 [XNIO-1 task-2] INFO  [TraceId:00066aeb-a278-441b-8b58-0dd1502576e5] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: ["{\"code\":\"1\"}"]
+Deliver- 2025-02-02 17:37:20 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 17:37:20 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 17:37:20 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:37:20 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 17:37:20 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 17:37:20 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 17:37:20 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 17:37:20 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+Deliver- 2025-02-02 17:37:23 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 17:37:23 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 18184 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 17:37:23 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 17:37:24 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 17:37:24 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 17:37:24 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 17:37:24 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 17:37:24 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1074 ms
+Deliver- 2025-02-02 17:37:26 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 17:37:26 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 17:37:26 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 17:37:26 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 17:37:26 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 17:37:26 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 17:37:26 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 17:37:26 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@64dcf763
+Deliver- 2025-02-02 17:37:26 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 17:37:26 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 17:37:26 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 17:37:26 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 17:37:26 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 17:37:26 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 17:37:26 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 17:37:26 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.401 seconds (process running for 3.977)
+Deliver- 2025-02-02 17:44:55 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:44:55 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:44:55 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+Deliver- 2025-02-02 17:44:56 [XNIO-1 task-2] INFO  [TraceId:24b85847-57da-4447-8b8c-e2ec777fbf41] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: []
+Deliver- 2025-02-02 17:45:27 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 17:45:27 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 17:45:27 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:45:27 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 17:45:27 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 17:45:27 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 17:45:27 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 17:45:27 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+Deliver- 2025-02-02 17:45:30 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 17:45:30 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 18268 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 17:45:30 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 17:45:30 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 17:45:30 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 17:45:30 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 17:45:31 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 17:45:31 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1055 ms
+Deliver- 2025-02-02 17:45:32 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 17:45:32 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 17:45:32 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 17:45:32 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 17:45:32 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 17:45:32 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 17:45:32 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 17:45:32 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5690c2a8
+Deliver- 2025-02-02 17:45:32 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 17:45:32 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 17:45:32 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 17:45:32 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 17:45:33 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 17:45:33 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 17:45:33 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 17:45:33 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.363 seconds (process running for 3.944)
+Deliver- 2025-02-02 17:45:45 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:45:45 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:45:45 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+Deliver- 2025-02-02 17:45:45 [XNIO-1 task-2] INFO  [TraceId:3e88522c-9730-4316-b903-f0788d33d143] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: []
+Deliver- 2025-02-02 17:46:18 [XNIO-1 task-2] INFO  [TraceId:29112945-6029-4f66-a05d-3fc78d5c4f07] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: []
+Deliver- 2025-02-02 17:48:25 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 17:48:25 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 17:48:25 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:48:25 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 17:48:25 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 17:48:25 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 17:48:25 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 17:48:25 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+Deliver- 2025-02-02 17:48:28 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 17:48:29 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 9612 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 17:48:29 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 17:48:29 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 17:48:29 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 17:48:29 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 17:48:30 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 17:48:30 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1316 ms
+Deliver- 2025-02-02 17:48:32 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 17:48:32 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 17:48:32 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 17:48:32 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 17:48:32 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 17:48:32 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 17:48:32 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 17:48:32 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@696105c4
+Deliver- 2025-02-02 17:48:32 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 17:48:32 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 17:48:32 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 17:48:32 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 17:48:32 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 17:48:32 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 17:48:32 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 17:48:32 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.768 seconds (process running for 4.338)
+Deliver- 2025-02-02 17:48:34 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:48:34 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:48:34 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+Deliver- 2025-02-02 17:50:22 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 17:50:22 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 17:50:22 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:50:22 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 17:50:22 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 17:50:22 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 17:50:22 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 17:50:22 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+Deliver- 2025-02-02 17:50:25 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 17:50:25 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 19964 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 17:50:25 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 17:50:26 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 17:50:26 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 17:50:26 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 17:50:26 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 17:50:26 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1049 ms
+Deliver- 2025-02-02 17:50:28 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 17:50:28 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 17:50:28 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 17:50:28 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 17:50:28 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 17:50:28 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 17:50:28 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 17:50:28 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@25435731
+Deliver- 2025-02-02 17:50:28 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 17:50:28 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 17:50:28 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 17:50:28 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 17:50:28 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 17:50:28 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 17:50:28 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 17:50:28 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.305 seconds (process running for 3.933)
+Deliver- 2025-02-02 17:50:33 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:50:33 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 17:50:33 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+Deliver- 2025-02-02 17:50:33 [XNIO-1 task-2] INFO  [TraceId:21961952-62f4-4e5c-9f20-47f2b59b3a0f] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: ["{\"code\":\"1\"}"]
+Deliver- 2025-02-02 17:51:15 [XNIO-1 task-2] INFO  [TraceId:92958565-fca9-41ae-b585-c813c886caaa] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: ["{\"code\":\"1\"}"]
+Deliver- 2025-02-02 18:01:56 [XNIO-1 task-2] INFO  [TraceId:5bbff7b5-149c-47dd-83a4-a9868dfd8865] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: ["{\"code\":\"1\"}"]
+Deliver- 2025-02-02 18:06:55 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 18:06:55 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 18:06:55 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 18:06:55 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 18:06:55 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 18:06:55 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 18:06:55 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 18:06:55 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+Deliver- 2025-02-02 18:06:59 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 18:06:59 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 17848 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 18:06:59 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 18:06:59 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 18:06:59 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 18:06:59 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 18:07:00 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 18:07:00 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1239 ms
+Deliver- 2025-02-02 18:07:02 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 18:07:02 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 18:07:02 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 18:07:02 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 18:07:02 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 18:07:02 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 18:07:02 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 18:07:02 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3f40568e
+Deliver- 2025-02-02 18:07:02 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 18:07:02 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 18:07:02 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 18:07:02 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 18:07:02 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 18:07:02 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 18:07:02 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 18:07:02 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.896 seconds (process running for 4.448)
+Deliver- 2025-02-02 18:07:13 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 18:07:13 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 18:07:13 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+Deliver- 2025-02-02 18:07:13 [XNIO-1 task-2] INFO  [TraceId:cdf0ad2f-ca3c-4815-9361-9bc657c38a09] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 18:07:27 [XNIO-1 task-2] INFO  [TraceId:cdf0ad2f-ca3c-4815-9361-9bc657c38a09] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}
+Deliver- 2025-02-02 18:07:36 [XNIO-1 task-2] INFO  [TraceId:432f2590-8cf7-4434-b5d0-cdba40c61b0f] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 18:07:37 [XNIO-1 task-2] INFO  [TraceId:432f2590-8cf7-4434-b5d0-cdba40c61b0f] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}
+Deliver- 2025-02-02 18:07:38 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 18:07:38 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 18:07:38 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 18:07:38 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 18:07:38 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 18:07:38 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 18:07:38 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 18:07:38 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+Deliver- 2025-02-02 18:07:40 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 18:07:40 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 17944 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 18:07:40 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 18:07:41 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 18:07:41 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 18:07:41 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 18:07:41 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 18:07:41 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 984 ms
+Deliver- 2025-02-02 18:07:43 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 18:07:43 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 18:07:43 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 18:07:43 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 18:07:43 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 18:07:43 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 18:07:43 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 18:07:43 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6e355249
+Deliver- 2025-02-02 18:07:43 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 18:07:43 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 18:07:43 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 18:07:43 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 18:07:43 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 18:07:43 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 18:07:43 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 18:07:43 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.1 seconds (process running for 3.536)
+Deliver- 2025-02-02 18:07:48 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 18:07:48 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 18:07:48 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+Deliver- 2025-02-02 18:07:48 [XNIO-1 task-2] INFO  [TraceId:be5ff237-446f-41b7-be3d-20cc385228d4] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 18:07:49 [XNIO-1 task-2] INFO  [TraceId:be5ff237-446f-41b7-be3d-20cc385228d4] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}
+Deliver- 2025-02-02 18:08:02 [XNIO-1 task-2] INFO  [TraceId:727a3b54-2950-415f-bf56-d4fb8c61d555] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 18:08:02 [XNIO-1 task-2] INFO  [TraceId:727a3b54-2950-415f-bf56-d4fb8c61d555] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}
+Deliver- 2025-02-02 18:09:02 [XNIO-1 task-2] INFO  [TraceId:fb8accef-ef7e-4a95-a55a-660d1271569d] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 18:09:02 [XNIO-1 task-2] INFO  [TraceId:fb8accef-ef7e-4a95-a55a-660d1271569d] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}
+Deliver- 2025-02-02 18:19:03 [XNIO-1 task-2] INFO  [TraceId:3c39a3eb-0ec8-40bb-be29-fbccfb8e7c02] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 18:19:03 [XNIO-1 task-2] INFO  [TraceId:3c39a3eb-0ec8-40bb-be29-fbccfb8e7c02] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}
+Deliver- 2025-02-02 18:19:25 [XNIO-1 task-2] INFO  [TraceId:999875b8-5a86-4c48-b340-68b3116cea05] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.TemplateController#search] 请求参数为: [{"currentPage":1,"pageSize":10}]
+Deliver- 2025-02-02 18:19:25 [XNIO-1 task-2] INFO  [TraceId:999875b8-5a86-4c48-b340-68b3116cea05] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+Deliver- 2025-02-02 18:19:25 [XNIO-1 task-2] INFO  [TraceId:999875b8-5a86-4c48-b340-68b3116cea05] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.TemplateController#search] 响应参数为: {"code":200,"data":{"records":[{"templateId":6,"templateName":"测试飞书消息","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":6,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736589571000,"updateTime":1736589579000,"appId":6,"appName":"飞书消息测试1"},{"templateId":4,"templateName":"测试钉钉机器人消息发送2","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":4,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736072522000,"updateTime":1736072545000,"appId":4,"appName":"钉钉消息测试2"},{"templateId":3,"templateName":"测试钉钉工作消息发送1","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":4,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736068422000,"updateTime":1736068439000,"appId":3,"appName":"钉钉消息测试1"},{"templateId":2,"templateName":"测试发送短信1","pushRange":1,"usersType":2,"pushWays":"{\"channelType\":2,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1735480800000,"updateTime":1735480814000,"appId":2,"appName":"阿里云短信测试"},{"templateId":1,"templateName":"测试邮箱1","pushRange":1,"usersType":3,"pushWays":"{\"channelType\":3,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1735381780000,"updateTime":1735381793000,"appId":1,"appName":"163邮箱"}],"total":5,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"searchCount":true}}
+Deliver- 2025-02-02 18:19:39 [XNIO-1 task-2] INFO  [TraceId:23fc5062-14cd-47be-9459-c86ca11fc2ca] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 18:19:39 [XNIO-1 task-2] INFO  [TraceId:23fc5062-14cd-47be-9459-c86ca11fc2ca] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}
+Deliver- 2025-02-02 18:28:00 [XNIO-1 task-2] INFO  [TraceId:549be6c3-e52f-44df-b584-fb88912e919e] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 18:28:00 [XNIO-1 task-2] INFO  [TraceId:549be6c3-e52f-44df-b584-fb88912e919e] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}
+Deliver- 2025-02-02 18:28:22 [XNIO-1 task-2] INFO  [TraceId:5edb18ef-9630-45ff-993b-f35f5369599a] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 18:28:22 [XNIO-1 task-2] INFO  [TraceId:5edb18ef-9630-45ff-993b-f35f5369599a] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}
+Deliver- 2025-02-02 18:29:58 [XNIO-1 task-2] INFO  [TraceId:30ba38ba-3ce1-4541-9386-726bb727cd2d] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 18:29:58 [XNIO-1 task-2] INFO  [TraceId:30ba38ba-3ce1-4541-9386-726bb727cd2d] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}
+Deliver- 2025-02-02 18:32:10 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 18:32:10 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 18:32:10 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 18:32:10 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 18:32:10 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 18:32:10 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 18:32:10 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 18:32:10 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+Deliver- 2025-02-02 18:32:10 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+Deliver- 2025-02-02 18:32:13 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 18:32:14 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 9772 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 18:32:14 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 18:32:14 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 18:32:14 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 18:32:14 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 18:32:15 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 18:32:15 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 986 ms
+Deliver- 2025-02-02 18:32:16 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 18:32:16 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 18:32:16 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 18:32:16 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 18:32:16 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 18:32:16 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 18:32:16 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 18:32:16 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@22854f2b
+Deliver- 2025-02-02 18:32:16 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 18:32:16 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 18:32:16 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 18:32:16 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 18:32:16 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 18:32:16 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 18:32:16 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 18:32:16 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 3.127 seconds (process running for 3.515)
+Deliver- 2025-02-02 18:32:38 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 18:32:38 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 18:32:38 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+Deliver- 2025-02-02 18:32:38 [XNIO-1 task-2] INFO  [TraceId:d49e3ff1-308b-408a-9c48-60e548a35064] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 18:32:38 [XNIO-1 task-2] INFO  [TraceId:d49e3ff1-308b-408a-9c48-60e548a35064] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"code":200,"data":{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}}
+Deliver- 2025-02-02 18:34:21 [XNIO-1 task-2] INFO  [TraceId:7d0d12d0-8a0a-4bf5-b4dc-12ede26daa48] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":2}]
+Deliver- 2025-02-02 18:34:21 [XNIO-1 task-2] INFO  [TraceId:7d0d12d0-8a0a-4bf5-b4dc-12ede26daa48] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"code":200,"data":{"rateLimiter":{"limitForPeriod":"1200","limitRefreshPeriodSeconds":"72","timeoutMillis":"550"},"circuitBreaker":{"failureRateThreshold":"30","slowCallRateThreshold":"100","waitDurationSeconds":"72","slowCallSeconds":"3","minimumNumberOfCalls":"12","slidingWindowSize":"125"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"4"}}}
+Deliver- 2025-02-02 18:39:49 [XNIO-1 task-2] INFO  [TraceId:a3fdc8bc-6114-438c-b7a7-45db24c90dba] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":3}]
+Deliver- 2025-02-02 18:39:49 [XNIO-1 task-2] INFO  [TraceId:a3fdc8bc-6114-438c-b7a7-45db24c90dba] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"code":200,"data":{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"500"},"circuitBreaker":{"failureRateThreshold":"50","slowCallRateThreshold":"100","waitDurationSeconds":"60","slowCallSeconds":"2","minimumNumberOfCalls":"10","slidingWindowSize":"100"},"timeLimiter":{"cancelRunningFuture":"true","timeoutSeconds":"5"}}}
+Deliver- 2025-02-02 20:57:53 [XNIO-1 task-2] INFO  [TraceId:bb2ee4e1-5224-4f1f-a023-2a9fc0eb05b5] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 20:57:53 [XNIO-1 task-2] INFO  [TraceId:bb2ee4e1-5224-4f1f-a023-2a9fc0eb05b5] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"code":200,"data":{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}}
+Deliver- 2025-02-02 20:58:33 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 20:58:33 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 20:58:33 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 20:58:33 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 20:58:33 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 20:58:33 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 20:58:33 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 20:58:33 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+Deliver- 2025-02-02 20:58:37 [background-preinit] INFO  [TraceId:] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+Deliver- 2025-02-02 20:58:37 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Starting DeliverAdminApplication using Java 17.0.9 with PID 18568 (F:\gitFile\deliver\deliver-backend-admin\target\classes started by 97610 in F:\gitFile\deliver)
+Deliver- 2025-02-02 20:58:37 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - The following 1 profile is active: "dev"
+Deliver- 2025-02-02 20:58:38 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+Deliver- 2025-02-02 20:58:38 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+Deliver- 2025-02-02 20:58:38 [main] INFO  [TraceId:] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+Deliver- 2025-02-02 20:58:39 [main] INFO  [TraceId:] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+Deliver- 2025-02-02 20:58:39 [main] INFO  [TraceId:] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1358 ms
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'InMemoryScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'InMemoryScheduler' initialized from an externally provided properties instance.
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5ddf5118
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] io.undertow - starting server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] org.xnio - XNIO version 3.8.8.Final
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] org.jboss.threads - JBoss Threads version 3.5.0.Final
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] o.s.b.w.e.undertow.UndertowWebServer - Undertow started on port(s) 9091 (http) with context path '/admin'
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED started.
+Deliver- 2025-02-02 20:58:41 [main] INFO  [TraceId:] c.o.d.admin.DeliverAdminApplication - Started DeliverAdminApplication in 4.066 seconds (process running for 4.651)
+Deliver- 2025-02-02 21:04:00 [XNIO-1 task-2] INFO  [TraceId:] io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+Deliver- 2025-02-02 21:04:00 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+Deliver- 2025-02-02 21:04:00 [XNIO-1 task-2] INFO  [TraceId:] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+Deliver- 2025-02-02 21:04:00 [XNIO-1 task-2] INFO  [TraceId:f157d702-1ba9-4dc1-8a24-839e47a30545] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 21:04:01 [XNIO-1 task-2] INFO  [TraceId:f157d702-1ba9-4dc1-8a24-839e47a30545] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"code":200,"data":{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}}
+Deliver- 2025-02-02 21:15:50 [XNIO-1 task-2] INFO  [TraceId:7fcd3a92-c434-4dda-a63d-6ab7f69e1d51] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 21:15:50 [XNIO-1 task-2] INFO  [TraceId:7fcd3a92-c434-4dda-a63d-6ab7f69e1d51] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"code":200,"data":{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}}
+Deliver- 2025-02-02 21:15:53 [XNIO-1 task-2] INFO  [TraceId:39375377-43a3-4198-b096-78b5cf4d3707] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.TemplateController#search] 请求参数为: [{"currentPage":1,"pageSize":10}]
+Deliver- 2025-02-02 21:15:53 [XNIO-1 task-2] INFO  [TraceId:39375377-43a3-4198-b096-78b5cf4d3707] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+Deliver- 2025-02-02 21:15:53 [XNIO-1 task-2] INFO  [TraceId:39375377-43a3-4198-b096-78b5cf4d3707] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.TemplateController#search] 响应参数为: {"code":200,"data":{"records":[{"templateId":6,"templateName":"测试飞书消息","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":6,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736589571000,"updateTime":1736589579000,"appId":6,"appName":"飞书消息测试1"},{"templateId":4,"templateName":"测试钉钉机器人消息发送2","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":4,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736072522000,"updateTime":1736072545000,"appId":4,"appName":"钉钉消息测试2"},{"templateId":3,"templateName":"测试钉钉工作消息发送1","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":4,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736068422000,"updateTime":1736068439000,"appId":3,"appName":"钉钉消息测试1"},{"templateId":2,"templateName":"测试发送短信1","pushRange":1,"usersType":2,"pushWays":"{\"channelType\":2,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1735480800000,"updateTime":1735480814000,"appId":2,"appName":"阿里云短信测试"},{"templateId":1,"templateName":"测试邮箱1","pushRange":1,"usersType":3,"pushWays":"{\"channelType\":3,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1735381780000,"updateTime":1735381793000,"appId":1,"appName":"163邮箱"}],"total":5,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"searchCount":true}}
+Deliver- 2025-02-02 21:16:03 [XNIO-1 task-2] INFO  [TraceId:be7d607e-a62a-459d-880b-008c872e970e] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 21:16:03 [XNIO-1 task-2] INFO  [TraceId:be7d607e-a62a-459d-880b-008c872e970e] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"code":200,"data":{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}}
+Deliver- 2025-02-02 21:20:27 [XNIO-1 task-2] INFO  [TraceId:c987bf75-d3c7-440d-aea7-cd1c400112f5] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 21:20:28 [XNIO-1 task-2] INFO  [TraceId:c987bf75-d3c7-440d-aea7-cd1c400112f5] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"code":200,"data":{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}}
+Deliver- 2025-02-02 21:26:16 [XNIO-1 task-2] INFO  [TraceId:ea440aaf-4394-4d49-b278-c4b9a559ba5e] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 21:26:16 [XNIO-1 task-2] INFO  [TraceId:ea440aaf-4394-4d49-b278-c4b9a559ba5e] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"code":200,"data":{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}}
+Deliver- 2025-02-02 21:27:42 [XNIO-1 task-2] INFO  [TraceId:9ef8d59e-ffea-4aa8-8960-d5316b74cced] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 21:27:42 [XNIO-1 task-2] INFO  [TraceId:9ef8d59e-ffea-4aa8-8960-d5316b74cced] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"code":200,"data":{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}}
+Deliver- 2025-02-02 21:28:42 [XNIO-1 task-2] INFO  [TraceId:ec78bbe4-2399-4de3-b416-a43b79016960] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 21:28:42 [XNIO-1 task-2] INFO  [TraceId:ec78bbe4-2399-4de3-b416-a43b79016960] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"code":200,"data":{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}}
+Deliver- 2025-02-02 21:30:54 [XNIO-1 task-2] INFO  [TraceId:ddd1a531-f60c-4e56-978c-e84c68493a79] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 21:30:54 [XNIO-1 task-2] INFO  [TraceId:ddd1a531-f60c-4e56-978c-e84c68493a79] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"code":200,"data":{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"5"}}}
+Deliver- 2025-02-02 21:31:19 [XNIO-1 task-2] INFO  [TraceId:89b769fc-43c0-4552-92b6-434f83ae3d60] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#updateFlowControlConfigByCode] 请求参数为: [{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"40","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":false,"timeoutSeconds":"5"},"code":1}]
+Deliver- 2025-02-02 21:31:27 [XNIO-1 task-2] INFO  [TraceId:89b769fc-43c0-4552-92b6-434f83ae3d60] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#updateFlowControlConfigByCode] 响应参数为: {"code":600,"errorMessage":"error"}
+Deliver- 2025-02-02 21:32:08 [XNIO-1 task-2] INFO  [TraceId:0c1138ea-221e-42cb-a741-3d1ba70a9f9c] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#updateFlowControlConfigByCode] 请求参数为: [{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"41","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":false,"timeoutSeconds":"5"},"code":1}]
+Deliver- 2025-02-02 21:32:14 [XNIO-1 task-3] INFO  [TraceId:75b55fe7-7a21-4e05-a78e-10f73f6e4a49] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 21:32:14 [XNIO-1 task-3] INFO  [TraceId:75b55fe7-7a21-4e05-a78e-10f73f6e4a49] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"code":200,"data":{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"41","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":false,"timeoutSeconds":"5"},"code":1}}
+Deliver- 2025-02-02 21:32:30 [XNIO-1 task-3] INFO  [TraceId:6a5ac514-677c-40c6-b893-60dea6b9fe13] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#updateFlowControlConfigByCode] 请求参数为: [{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"41","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":false,"timeoutSeconds":"51"},"code":1}]
+Deliver- 2025-02-02 21:32:42 [XNIO-1 task-4] INFO  [TraceId:719c3ab5-74c5-4225-86de-5c2f1a7fcbf1] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#updateFlowControlConfigByCode] 请求参数为: [{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"41","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":false,"timeoutSeconds":"51"},"code":1}]
+Deliver- 2025-02-02 21:32:43 [XNIO-1 task-5] INFO  [TraceId:a4bf0ae3-9c39-4a56-9485-2e7c31ef23ad] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#updateFlowControlConfigByCode] 请求参数为: [{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"41","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":false,"timeoutSeconds":"51"},"code":1}]
+Deliver- 2025-02-02 21:33:12 [XNIO-1 task-6] INFO  [TraceId:3c9ac655-7c6c-4d79-84a9-5bd72bd5b6a0] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":1}]
+Deliver- 2025-02-02 21:33:12 [XNIO-1 task-6] INFO  [TraceId:3c9ac655-7c6c-4d79-84a9-5bd72bd5b6a0] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"code":200,"data":{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"41","slowCallSeconds":"2","minimumNumberOfCalls":"15","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":false,"timeoutSeconds":"51"},"code":1}}
+Deliver- 2025-02-02 21:33:16 [XNIO-1 task-6] INFO  [TraceId:bfe631c8-e5e1-410f-b156-6f5ce6e3d989] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#updateFlowControlConfigByCode] 请求参数为: [{"rateLimiter":{"limitForPeriod":"1000","limitRefreshPeriodSeconds":"60","timeoutMillis":"1000"},"circuitBreaker":{"failureRateThreshold":"75","slowCallRateThreshold":"100","waitDurationSeconds":"41","slowCallSeconds":"2","minimumNumberOfCalls":"16","slidingWindowSize":"50"},"timeLimiter":{"cancelRunningFuture":false,"timeoutSeconds":"51"},"code":1}]
+Deliver- 2025-02-02 21:33:42 [XNIO-1 task-2] INFO  [TraceId:0c1138ea-221e-42cb-a741-3d1ba70a9f9c] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#updateFlowControlConfigByCode] 响应参数为: {"code":600,"errorMessage":"error"}
+Deliver- 2025-02-02 21:33:42 [XNIO-1 task-3] INFO  [TraceId:6a5ac514-677c-40c6-b893-60dea6b9fe13] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#updateFlowControlConfigByCode] 响应参数为: {"code":600,"errorMessage":"error"}
+Deliver- 2025-02-02 21:33:42 [XNIO-1 task-5] INFO  [TraceId:a4bf0ae3-9c39-4a56-9485-2e7c31ef23ad] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#updateFlowControlConfigByCode] 响应参数为: {"code":600,"errorMessage":"error"}
+Deliver- 2025-02-02 21:33:42 [XNIO-1 task-4] INFO  [TraceId:719c3ab5-74c5-4225-86de-5c2f1a7fcbf1] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#updateFlowControlConfigByCode] 响应参数为: {"code":600,"errorMessage":"error"}
+Deliver- 2025-02-02 21:33:42 [XNIO-1 task-6] INFO  [TraceId:bfe631c8-e5e1-410f-b156-6f5ce6e3d989] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#updateFlowControlConfigByCode] 响应参数为: {"code":600,"errorMessage":"error"}
+Deliver- 2025-02-02 21:54:15 [XNIO-1 task-6] INFO  [TraceId:e66f34dc-250a-4dbc-9366-4f0f3826a999] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.TemplateController#search] 请求参数为: [{"currentPage":1,"pageSize":10}]
+Deliver- 2025-02-02 21:54:15 [XNIO-1 task-6] INFO  [TraceId:e66f34dc-250a-4dbc-9366-4f0f3826a999] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.TemplateController#search] 响应参数为: {"code":200,"data":{"records":[{"templateId":6,"templateName":"测试飞书消息","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":6,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736589571000,"updateTime":1736589579000,"appId":6,"appName":"飞书消息测试1"},{"templateId":4,"templateName":"测试钉钉机器人消息发送2","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":4,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736072522000,"updateTime":1736072545000,"appId":4,"appName":"钉钉消息测试2"},{"templateId":3,"templateName":"测试钉钉工作消息发送1","pushRange":1,"usersType":4,"pushWays":"{\"channelType\":4,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1736068422000,"updateTime":1736068439000,"appId":3,"appName":"钉钉消息测试1"},{"templateId":2,"templateName":"测试发送短信1","pushRange":1,"usersType":2,"pushWays":"{\"channelType\":2,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1735480800000,"updateTime":1735480814000,"appId":2,"appName":"阿里云短信测试"},{"templateId":1,"templateName":"测试邮箱1","pushRange":1,"usersType":3,"pushWays":"{\"channelType\":3,\"messageType\":\"1\"}","useCount":0,"templateStatus":1,"createUser":"oszero.cn(零号开源)","createTime":1735381780000,"updateTime":1735381793000,"appId":1,"appName":"163邮箱"}],"total":5,"size":10,"current":1,"orders":[],"optimizeCountSql":true,"searchCount":true}}
+Deliver- 2025-02-02 22:17:40 [XNIO-1 task-6] INFO  [TraceId:23b5213c-b4e0-4396-a684-d9a944af3d9b] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":2}]
+Deliver- 2025-02-02 22:17:40 [XNIO-1 task-6] INFO  [TraceId:23b5213c-b4e0-4396-a684-d9a944af3d9b] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"code":200,"data":{"rateLimiter":{"limitForPeriod":"1200","limitRefreshPeriodSeconds":"72","timeoutMillis":"550"},"circuitBreaker":{"failureRateThreshold":"30","slowCallRateThreshold":"100","waitDurationSeconds":"72","slowCallSeconds":"3","minimumNumberOfCalls":"12","slidingWindowSize":"125"},"timeLimiter":{"cancelRunningFuture":"false","timeoutSeconds":"4"}}}
+Deliver- 2025-02-02 22:17:52 [XNIO-1 task-6] INFO  [TraceId:fc3ddbef-4a75-4625-ae08-dc4962c51085] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#updateFlowControlConfigByCode] 请求参数为: [{"rateLimiter":{"limitForPeriod":"1200","limitRefreshPeriodSeconds":"73","timeoutMillis":"550"},"circuitBreaker":{"failureRateThreshold":"30","slowCallRateThreshold":"100","waitDurationSeconds":"72","slowCallSeconds":"3","minimumNumberOfCalls":"12","slidingWindowSize":"125"},"timeLimiter":{"cancelRunningFuture":false,"timeoutSeconds":"4"},"code":2}]
+Deliver- 2025-02-02 22:17:52 [XNIO-1 task-6] INFO  [TraceId:fc3ddbef-4a75-4625-ae08-dc4962c51085] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#updateFlowControlConfigByCode] 响应参数为: {"code":600,"errorMessage":"error"}
+Deliver- 2025-02-02 22:18:28 [XNIO-1 task-6] INFO  [TraceId:3666c8ba-9e7a-414e-ab7d-034959fea386] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 请求参数为: [{"code":2}]
+Deliver- 2025-02-02 22:18:28 [XNIO-1 task-6] INFO  [TraceId:3666c8ba-9e7a-414e-ab7d-034959fea386] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#getFlowControlConfigByCode] 响应参数为: {"code":200,"data":{"rateLimiter":{"limitForPeriod":"1200","limitRefreshPeriodSeconds":"73","timeoutMillis":"550"},"circuitBreaker":{"failureRateThreshold":"30","slowCallRateThreshold":"100","waitDurationSeconds":"72","slowCallSeconds":"3","minimumNumberOfCalls":"12","slidingWindowSize":"125"},"timeLimiter":{"cancelRunningFuture":false,"timeoutSeconds":"4"},"code":2}}
+Deliver- 2025-02-02 22:18:33 [XNIO-1 task-6] INFO  [TraceId:e0e84b20-8aa1-4aab-845c-01fa4bf15aa2] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求进入 [com.oszero.deliver.admin.controller.FlowControlController#updateFlowControlConfigByCode] 请求参数为: [{"rateLimiter":{"limitForPeriod":"1200","limitRefreshPeriodSeconds":"74","timeoutMillis":"550"},"circuitBreaker":{"failureRateThreshold":"30","slowCallRateThreshold":"100","waitDurationSeconds":"72","slowCallSeconds":"3","minimumNumberOfCalls":"12","slidingWindowSize":"125"},"timeLimiter":{"cancelRunningFuture":false,"timeoutSeconds":"4"},"code":2}]
+Deliver- 2025-02-02 22:18:33 [XNIO-1 task-6] INFO  [TraceId:e0e84b20-8aa1-4aab-845c-01fa4bf15aa2] c.o.deliver.admin.aop.ControllerAop - IP地址为: 127.0.0.1，请求返回 [com.oszero.deliver.admin.controller.FlowControlController#updateFlowControlConfigByCode] 响应参数为: {"code":600,"errorMessage":"error"}
+Deliver- 2025-02-02 22:19:15 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 22:19:15 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow - stopping server: Undertow - 2.3.8.Final
+Deliver- 2025-02-02 22:19:15 [SpringApplicationShutdownHook] INFO  [TraceId:] io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+Deliver- 2025-02-02 22:19:15 [SpringApplicationShutdownHook] INFO  [TraceId:] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+Deliver- 2025-02-02 22:19:15 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutting down.
+Deliver- 2025-02-02 22:19:15 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED paused.
+Deliver- 2025-02-02 22:19:15 [SpringApplicationShutdownHook] INFO  [TraceId:] org.quartz.core.QuartzScheduler - Scheduler InMemoryScheduler_$_NON_CLUSTERED shutdown complete.
+Deliver- 2025-02-02 22:19:15 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+Deliver- 2025-02-02 22:19:15 [SpringApplicationShutdownHook] INFO  [TraceId:] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

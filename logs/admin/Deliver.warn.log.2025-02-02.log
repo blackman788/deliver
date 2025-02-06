@@ -1,0 +1,40 @@
+Deliver- 2025-02-02 13:47:11 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 13:47:11 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 16:45:55 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 16:45:56 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 16:54:46 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 16:54:47 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 16:55:51 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 16:55:52 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 16:56:13 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 16:56:14 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 16:57:15 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 16:57:15 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 16:58:40 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 16:58:40 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 16:59:35 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 16:59:35 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 16:59:55 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 16:59:56 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 17:01:21 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 17:01:22 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 17:03:56 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 17:03:56 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 17:08:38 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 17:08:39 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 17:37:24 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 17:37:25 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 17:45:31 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 17:45:31 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 17:48:30 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 17:48:31 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 17:50:26 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 17:50:27 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 18:07:00 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 18:07:01 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 18:07:41 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 18:07:42 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 18:32:15 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 18:32:15 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+Deliver- 2025-02-02 20:58:39 [main] WARN  [TraceId:] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+Deliver- 2025-02-02 20:58:39 [main] WARN  [TraceId:] c.b.m.c.injector.DefaultSqlInjector - class com.oszero.deliver.admin.model.entity.MessageRecord ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
